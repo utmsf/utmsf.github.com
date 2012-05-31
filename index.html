@@ -8,17 +8,15 @@ title: Home
 	
 </section>
 
-<ul class="entries">
+<ul>
 	{% for post in site.posts %}
-	
-	<li>
-		<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-			<im src="{{ post.image }}" />
-			
-			<p>
+ 
+		<li>
+			<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+			<img src="{{ post.image }}" />
 			<h3>{{ content }}</h3>
-			</p>
-	</li>
+		</li>
+ 
 	{% endfor %}
 	
 </ul>
