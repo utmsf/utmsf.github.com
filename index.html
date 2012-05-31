@@ -10,14 +10,14 @@ title: Home
 </section>
  
 <ul class="entries">
-  {% for event in site.events %}
+  {% for post in site.posts %}
  
   <li>
-    <a href="{{ event.url }}">
-      <img src="{{ event.image }}" />
-      <h3>{{ event.title }}</h3>
+    <a href="{{ post.url }}">
+      <img src="{{ post.image }}" />
+      <h3>{{ post.title }}</h3>
     </a>
-	  {{ event.content }}
+	  {{ [post.content }}
   </li>
  
   {% endfor %}
