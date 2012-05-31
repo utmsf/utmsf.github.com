@@ -1,32 +1,72 @@
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <meta charset=utf-8 />
-      <title> {% if page.title %} {{ page.title }} | {% endif %} John Doe, Photographer </title>
-      <link rel="stylesheet" href="/css/style.css" />
-    </head>
-    <body>
-      <div id="main">
+<!DOCTYPE html>
+<html>
+<head>
 
-        <header>
-          <h1> John Doe Photography </h1>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Our mandate is to help students on campus respond to their concerns of humanitarian crises by helping them become aware of MSF and their work around the world.">
+<meta name="title" content="Friends of MSF (Médecins Sans Frontières/Doctors without Borders) - UofT Chapter - Home" />
+<meta name="keywords" content="Friends of MSF, utoronto msf, uoft friends msf, utoronto friends msf, Doctors without Borders, Médecins Sans Frontières, Medecins Sans Frontieres" />
+<title> {% if page.title %} {{ page.title }} | {% endif %} Friends of MSF (Médecins Sans Frontières/Doctors without Borders) - UofT Chapter </title>
+<link rel="stylesheet" href="/css/style.css" />
+</head>
 
-        <nav role="navigation">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/portfolio/">Portfolio</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </nav>
-        </header>
+<!-- container for centering purposes -->
+<div id="container">
 
-        {{ content }}
+	<!-- header -->
+    <div id="header">
+    <!-- style background set to the banner image -->
+   	</div>
+    
+<!-- nav bar -->
+    <div id="navbar">
+    		<ul id="nav">
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="about.html">ABOUT</a>
+    		<ul>
+			<li><a href="mission.html">MISSION</a></li>
+			<li><a href="history.html">HISTORY</a></li>
+			<li><a href="exec.html">EXECUTIVE TEAM</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+		</ul></li>
+    		<li><a href="events.html">EVENTS</a></li>
+		<li><a href="volunteer.html">VOLUNTEER</a></li>
+		<li><a href="contact.html">CONTACT</a></li>
+	</ul>
+      <!-- end navbar -->
+    </div>
+    
+    <!--event feed-->
+    <div id="feed">
+    	<h1>Upcoming Events</h1>
+      <p>Executive Applications - due Wednesday, March 28</p>
+      <p>Click <a href="events.html">here</a> for more details!</p>
+    </div>
+    <!--end event feed -->
+    
+<!-- main content -->
+    <div id="content">
+	{{ content }}
+  </div>
+    
+<!-- footer -->
+    <div id="footer">
+		<table>
+	<tr>
+	<td><a href="http://www.facebook.com/groups/msf.friends.uoftoronto?ap=1"><img src="images/f_logo.png" height="20px" width="20px" /></a> 
+		<a href="http://twitter.com/#!/FriendsofMSF" class="twitter-follow-button">Follow @UofT MSF</a>
+		<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script></td>
+     <td><center>Copyright &copy; 2011 - Friends of MSF University of Toronto Chapter</center></td>
+     <td></td>
+     </tr>
+</table>
 
-        <footer>
-          <p>&copy; John Doe Photography 2011 | All Rights Reserved. </p>
-        </footer>
+    <!-- end footer -->
+    </div>
+                
 
-      </div>
-      </body>
-    </html>
+    <!-- end container -->
+</div>
+
+</body>
+</html>
