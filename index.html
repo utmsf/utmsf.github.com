@@ -2,22 +2,23 @@
 layout: default
 title: Home
 ---
-
+ 
 <section class="content">
-	<h1>Upcoming Events</h1>
-	
+  <h2>Home</h2>
+ 
+  <p>Check out my events below!</p>
 </section>
-
-
-<ul>
-	{% for post in site.posts %}
  
-		<li>
-			<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-			<img src="{{ post.image }}" />
-			<h3>{{ content }}</h3>
-		</li>
+<ul class="entries">
+  {% for post in site.posts %}
  
-	{% endfor %}
-	
+  <li>
+    <a href="{{ event.url }}">
+      <img src="{{ event.image }}" />
+      <h3>{{ event.title }}</h3>
+    </a>
+	  {{ event.content }}
+  </li>
+ 
+  {% endfor %}
 </ul>
