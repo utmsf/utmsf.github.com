@@ -1,24 +1,13 @@
-﻿---
-layout: default
-title: Home
 ---
- 
-<section class="content">
-  <h2>Home</h2>
- 
-  <p>Check out my events below!</p>
+layout: default
+title : testing 
+---
+<section role="banner">
+  <img src="/img/banner.jpg" />
 </section>
- 
-<ul class="entries">
-  {% for post in site.posts %}
- 
-  <li>
-    <a href="{{ post.url }}">
-      <img src="{{ post.image }}" />
-      <h3>{{ post.title }}</h3>
-    </a>
-	  {{ [post.content }}
-  </li>
- 
-  {% endfor %}
-</ul>
+
+<section class="content">
+  <p>
+  Welcome to John Doe Photography! Please, check out my <a href="/portfolio/">Portfolio</a> to see my work.
+  </p> 
+</section>
