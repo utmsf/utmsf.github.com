@@ -2,73 +2,22 @@
 layout: default
 ---
 
-<p><h1>Join the Executive Team for 2012-2013!</h1></p>
-<p>
-It is only a few weeks away until the last day of classes and it is hard to believe how fast this school year has gone by.
-The Friends of MSF UofT Chapter has had another fantastic year and it would not have been possible without the support of all our dedicated members. With that said, we are inviting all of you to apply for a position in our 2012-2013 Executive Committee. If you are passionate about advocating for global health and humanitarianism, joining our executive team would be a great opportunity for you to get involved, learn, and grow.</p>
+<section class="content">
+	<h1>Upcoming Events</h1>
+	
+</section>
 
-<p>If you are interested in applying, please download and fill out the application form by using the link below. Please send your completed application to <a href="mailto:msf.friends.uoftoronto@gmail.com">msf.friends.uoftoronto@gmail.com</a> with the subject 'Exec Application' by Wednesday, March 28 11:50pm.</p>
-
-<p>We look forward to receiving your application!
-</p>
-<p>Download the <a href="docs/Exec_Application_12_13.doc">application form</a>.</p>
-
-
-    	<p><h2>Past Events</h2></p>
-<p><table><tr><td valign="top">
-</td><td valign="top"><h3>Trauma Workshop - March 21 - 5:30 - 8:00pm @ Mount Sinai</h3>
-<p>
-View the event poster <a href="images/traumawkshop.jpg">here</a>!
-</p>
-<p>
-Close up that bloody wound! The annual Friends of MSF U of T Chapter Trauma Workshop at will be on March 21st 2012 from 5.30 PM to 8:00PM at the Cooper Medical Education Center at Mount Sinai.
-</p>
-<p> 
-We will have an MSF physician and several senior medical students co-facilitating the workshops. Participants will be split into 3 smaller groups and each group will rotate through the following stations with the objective of learning the basics of resuscitation:
-</p>
-<p>
-Station 1: First aid and Airway maintenance; bandaging and intubation
-</p>
-<p>
-Station 2: Circulation and haemorrhage control; suturing and surgical techniques
-</p>
-<p>
-Station 3: MSF oriented session on medical humanitarian aid led by MSF physician. Learn from his experiences abroad with MSF and the path you’ll need to get there from where you are now.
-</p>
-<p>
-<b>COST:</b> $15 
-</p>
-<p> 
-<b>WHEN:</b> Wednesday March 21st · 5:30pm - 8:00pm
-</p>
-<p>
-<b>WHERE:</b> Sydney & Florence Cooper Family Education Centre, Mount Sinai Hospital
-<br />60 Murray Street, L3-300; Classrooms A & B, Seminar Rooms 3, 4, 5
-</p>
-<p>
-Further information on ticket sales will be provided in the near future so please check back soon.
-
-</p>
-</td><td valign="top"><img src="images/traumawkshop.jpg" width="300px" height="400px" /></td></tr></table>
-<p><h3>Speaker Event - Humanitarianism: Why Should I Care? - March 1, 2012 @ 6-8pm in MSB3163</h3></p>
-       <p color="red">
-Thank you to everyone who attended our speaker event,
-"Humanitarianism: Why Should I Care?" We hope you found the discussion
-educational and inspiring to becoming more globally engaged! For more
-information about MSF Canada and how to one day work for the
-organization, please visit <a href="www.msf.ca">www.msf.ca</a>.</p>
-
-<!--
-		<h2>Refugee Camp 2011 was a success!</h2></p>
-        <table>
-        <tr>
-		<td><img src="images/camp_poster.png" width="353" height="400"/></td>
-        <td valign="top">
-        <p><font color="#FF0000">Thank you to everyone who helped out with the 2011 Refugee Camp in the Heart of Campus. We raised a total of $3100 from the event! <a href="https://www.facebook.com/media/set/?set=oa.286590074686819&type=1">Click here</a> to go to our Facebook page to see photos from the event. Check back here to receive information about our upcoming Volunteer Appreciation Social and other upcoming events!</font></p>
-        <p>What is Refugee Camp 2011/Camp out for a Cause?</p>
-        <p>43 million people worldwide live as refugees or internally displaced people (IDPs). For most people living in Canada it can be difficult to understand what the lives of displaced people are like, how the very things most of us take for granted - clean drinking water, shelter, and adequate food supply- can disappear in the blink of an eye. It can also be difficult to understand the scale of the world's refugee/IDP problem.
-          <p>The University of Toronto's Friends of MSF hosts the annual &quot;Refugee Camp in the Heart of Campus&quot; to educate students of the lifestyle and conditions of refugees and internally displaced people. Every year we set up tents with educators to talk about the challenges these people face in regards to vaccination, water, sanitation, and nutrition. We also feature guest speakers from Doctor's WIthout Borders who share their personal experiences of what it has been like working under these conditions.   The event is followed by a &quot;Camp Out&quot; in which volunteers and U of T students are pledged to camp out with us to raise money for MSF Canada in support of refugees worldwide.</p>
-          <p><a href="http://my.e2rm.com/personalPage.aspx?registrationID=1262693&amp;langPref=en-CA&amp;Referrer=https%3a%2f%2fsecure.e2rm.com%2fregistrant%2fmyEventDetails.aspx%3fEventID%3d38416%26LangPref%3den-CA%26RegistrationID%3d1262693">Donate to our cause using our secure online payment system!</a></p>
-          </td>
-        </tr>
-          </table>-->
+<ul class="entries">
+	{% for post in site.posts %}
+	
+	<li>
+		<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+			<im src="{{ post.image }}" />
+			
+			<p>
+			<h3>{{ post.content }}</h3>
+			</p>
+	</li>
+	{% endfor %}
+	
+</ul>
