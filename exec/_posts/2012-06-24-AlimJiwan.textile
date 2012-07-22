@@ -1,0 +1,12 @@
+---
+layout: posts
+title: Alim-Karim Jiwan
+image: alim.jpg
+image_width: 300px
+image_height: 400px
+position: Webmaster
+blurb: I am the webmaster for the chapter. I maintain and update the website with events and news. I am a dedicated (shameless) leafs fan! 
+---
+
+<p>
+</p>

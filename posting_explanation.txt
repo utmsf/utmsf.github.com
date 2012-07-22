@@ -1,0 +1,55 @@
+Posting conventions
+
+make a file called YYYY-MM-DD-TITLE.textile and place it in either 
+/events/_posts/ or /news/_posts/ depending on which it is
+YYYY-MM-DD should be the deadline/event date for an event
+  it should be the day you are posting the artcile if its a news item (do not put the date of the actual article or any other date, as articles are listed chronologically, so if you put an older date it may not appear on the frontpage)
+The TITLE aspect should be abbreviated and brief, it will become the url of the post, 
+i.e. /news/YYYY/MM/DD/TITLE.html
+  thus name it meaningfully.
+  
+  
+put this at the top of every post .textile file and fill it in accordingly:
+
+---
+layout: posts
+title: 2nd General Meeting
+post_type: event
+image-left:
+image-right:
+event_date: February 16, 2012
+event_deadline: 
+event_time: 6:00pm
+event_location: MSB2133
+src_url:
+excerpt:
+---
+
+explanation of metadata above:
+
+layout: is always "posts"
+
+title: put in the title of the event only dont include data/time etc
+
+post_type: is it "event" or "news"?
+
+image-left and image-right: this allows for customization of the page layout, at random pick whether you want the image to float left or float right of the text and enter the url of the image there, an example is:
+///
+image-right: /images/myimage.png
+image-left: 
+///
+note one is left blank, do not fill in both.
+
+anything prefixed with event_ applies to event postings, do not fill in if its a news:
+
+event_date: this is the day of the event, its a good idea to also have the YYYY-MM-DD of the filename as the same data
+
+event_deadline: if the post has a deadline, put it here
+
+event_time,_location are self explanatory
+
+the following are for news items, do not fill in if its an event:
+
+src_url: the url from where the article or video came, important: include http:// or https:// or whatever prefixes the url
+
+excerpt: copy paste the first paragraph with html markup here, this is whats displayed on the homepage for them to click to read further

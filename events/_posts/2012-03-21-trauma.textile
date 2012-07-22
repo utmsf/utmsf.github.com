@@ -1,0 +1,45 @@
+---
+layout: posts
+title: Trauma Workshop
+image_left: /images/traumawkshop.jpg
+image_right:
+image_width: 250px
+image_height: 350px
+post_type: event
+event_date: March 21
+event_deadline:
+event_time: 5:30 - 8:30pm
+event_location: Mount Sinai
+src_url:
+excerpt:
+---
+
+<p>
+Close up that bloody wound! The annual Friends of MSF U of T Chapter Trauma Workshop at will be on March 21st 2012 from 5.30 PM to 8:00PM at the Cooper Medical Education Center at Mount Sinai.
+</p>
+<p> 
+We will have an MSF physician and several senior medical students co-facilitating the workshops. Participants will be split into 3 smaller groups and each group will rotate through the following stations with the objective of learning the basics of resuscitation:
+</p>
+<p>
+Station 1: First aid and Airway maintenance; bandaging and intubation
+</p>
+<p>
+Station 2: Circulation and haemorrhage control; suturing and surgical techniques
+</p>
+<p>
+Station 3: MSF oriented session on medical humanitarian aid led by MSF physician. Learn from his experiences abroad with MSF and the path you'll need to get there from where you are now.
+</p>
+<p>
+<b>COST:</b> $15 
+</p>
+<p> 
+<b>WHEN:</b> Wednesday March 21st - 5:30pm - 8:00pm
+</p>
+<p>
+<b>WHERE:</b> Sydney & Florence Cooper Family Education Centre, Mount Sinai Hospital
+<br />60 Murray Street, L3-300; Classrooms A & B, Seminar Rooms 3, 4, 5
+</p>
+<p>
+Further information on ticket sales will be provided in the near future so please check back soon.
+
+</p>

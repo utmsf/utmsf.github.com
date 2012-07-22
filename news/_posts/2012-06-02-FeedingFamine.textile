@@ -1,0 +1,47 @@
+---
+layout: post
+title: How can you feed someone who is starving to death?
+image_left:
+image_right:
+image_width:
+image_height:
+post_type: news
+event_date:
+event_deadline:
+event_time:
+event_location:
+author: Tim Alamenciak
+src_url: http://www.thestar.com/news/world/article/1203467--how-feeding-centres-treat-famine-victims
+excerpt: Nothing fully prepared Dr. James Maskalyk for the effects of hunger he would see while working at feeding centres in Kenya and Sudan. At Kenya's Dadaab centre, a 4-year-old girl arrived so malnourished her skin had started to fall off.
+article: true
+---
+
+<p>Nothing fully prepared Dr. James Maskalyk for the effects of hunger he would see while working at feeding centres in Kenya and Sudan.</p>
+<p>At Kenya&rsquo;s Dadaab centre, a 4-year-old girl arrived so malnourished her skin had started to fall off.</p>
+<p>&ldquo;It was like wet tissue paper on a car windshield in the rain or something,&rdquo; said Maskalyk, an emergency doctor at St. Michael&rsquo;s Hospital in Toronto and author of <em>Six Months in Sudan</em>. &ldquo;I&rsquo;ve never seen anything like that.&rdquo;</p>
+<p>Advances in organization and medical technology have streamlined famine relief, but front-line workers still encounter dire cases.</p>
+<p>&ldquo;There&rsquo;s lots of research about diabetes and heart disease and things like that. But in the developing world, in places like Dadaab, with problems like malnutrition, there&rsquo;s just experience,&rdquo; said Maskalyk.</p>
+<p>
+<b>The first stage</b>
+</p>
+<p>Procedures for evaluating malnutrition in children have been fine-tuned to be used by anybody. A colour-coded band is used to check the size of a child&rsquo;s bicep. Anything smaller than 11.5 centimetres &mdash; slightly larger than the circumference of a toonie &mdash; is classified as severely malnourished.</p>
+<p>&ldquo;The big change is we went from the hospital to health clinic for treating severe acute malnutrition. Now we&rsquo;re trying to go from the health clinic to the community, making even more decentralization,&rdquo; said Stephane Doyon, manager of the Doctors Without Borders malnutrition campaign.</p>
+<p>In 2002, a famine in Angola prompted an emergency intervention by the group. It took 2,000 staff to care for 8,000 starving people. In 2004, they treated 10,000 in Niger with 120 staff, Doyon said.</p>
+<p>Those hit hardest by famine are children under 5, who lack the ability to convince themselves to eat.</p>
+<p>&ldquo;If you were to go into a fast, you&rsquo;d lose your appetite after a couple days, but you know you&rsquo;re supposed to eat so you convince yourself that it&rsquo;s the right thing. But if you&rsquo;re 3 years old and you haven&rsquo;t eaten, or become sick with diarrhea and don&rsquo;t want to eat, then I can&rsquo;t make you,&rdquo; said Maskalyk.</p>
+<p>Those without an appetite, or with other illnesses, are admitted. Children who can eat are sent home with packets of ready-to-eat food.</p>
+<p>
+<b>The worst cases</b>
+</p>
+<p>Hunger prompts the body to begin shutting down, including the immune and digestive systems.</p>
+<p>&ldquo;You could have a serious infection but not manifest any signs of it. It&rsquo;s like being on chemo,&rdquo; said Maskalyk. &ldquo;It&rsquo;s a prolonged dying process.&rdquo;</p>
+<p>Children admitted to the ward are often fed through a feeding tube to start, receiving enriched milk . When they eat willingly, they are discharged with rations of ready-to-eat food like Plumpy&rsquo;nut, a peanut-based paste.</p>
+<p>&ldquo;What happens if I give someone a Big Mac after they haven&rsquo;t eaten for 10 days or two weeks, they&rsquo;ll get diarrhea and abdominal pain. So you have to start off with something a little more gentle,&rdquo; said Maskalyk.</p>
+<p>
+<b>Conclusion</b>
+</p>
+<p>When the girl whose skin was falling off cried, it was a moment of triumph &mdash; a sign her  health was returning.</p>
+<p>Advances in technology have made it possible to give more attention to the worst cases and quickly treat simple ones.</p>
+<p>Maskalyk points out that hunger is rarely at the core of the problem.</p>
+<p>&ldquo;If you hear the word famine, you want to look around for the nearest war becauseit&rsquo;s often political inequity that allows these things to perpetuate,&rdquo; he said.</p>
+        

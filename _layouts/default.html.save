@@ -7,20 +7,10 @@
 <meta name="keywords" content="Friends of MSF, utoronto msf, uoft friends msf, utoronto friends msf, Doctors without Borders, Médecins Sans Frontières, Medecins Sans Frontieres" />
 <title>{% if page.title %}{{ page.title }} {% endif %}- Friends of MSF (Médecins Sans Frontières/Doctors without Borders) - UofT Chapter</title>
 <link rel="stylesheet" type="text/css" href="/css/styles.css" />
-
-<script type="text/javascript">
- function unhide(divID) {
- var item = document.getElementById(divID);
- if (item) {
- item.className=(item.className=='hidden')?'unhidden':'hidden';
- }
- }
- </script>
 </head>
 
 <body>
 <div id="container">
-	<section id="caption">a student group at UofT that supports MSF</section>
 	<div id="header">
     		<!-- style background set to the banner image -->
 	</div>
@@ -43,11 +33,17 @@
 	<div id="navigation">
 		<ul id="nav">
 			<li><a href="/index.html">HOME</a></li>
-           		<li><a href="/events/index.html">EVENTS</a></li>
+			<li><a href="/about.html">ABOUT</a>
+    			<ul>
+				<li><a href="/mission.html">MISSION</a></li>
+				<li><a href="/history.html">HISTORY</a></li>-->
+			<li><a href="/about.html">MISSION & HISTORY</a></li>
+			<li><a href="/exec.html">EXECUTIVE TEAM</a></li>
+           		<li><a href="/faq.html">FAQ</a></li>
+			<!--</ul></li>-->
+    		<li><a href="/events/index.html">EVENTS</a></li>
 			<li><a href="/news/index.html">NEWS</a></li>
 			<li><a href="/volunteer.html">VOLUNTEER</a></li>
-			<li><a href="/about.html">ABOUT</a>
-    			<li><a href="/exec.html">EXECUTIVE TEAM</a></li>
 			<li><a href="/contact.html">CONTACT</a></li>
 		</ul>
 	</div>

@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<p><h1>{{ page.title }}</h1></p>
+{% if page.post_type == 'event' %}
+		
+			{% if page.image_left %}
+				<img class="left" src="{{ page.image_left }}" width="{% if page.image_width %}{{ page.image_width }}{% else %}300px{% endif %}" height="{% if page.image_height %}{{ page.image_height }}{% else %}400px{% endif %}" />
+				<p>Click <a href="{{ page.image_left }}">here</a> for the full-size poster image.</p>
+			{% endif %}
+			{% if page.image_right %}
+				<img class="right" src="{{ page.image_right }}" width="{% if page.image_width %}{{ page.image_width }}{% else %}300px{% endif %}" height="{% if page.image_height %}{{ page.image_height }}{% else %}400px{% endif %}" />
+				<p>Click <a href="{{ page.image_right }}">here</a> for the full-size poster image.</p>
+			{% endif %}
+			<p></p>
+			{% if page.event_date %}
+				<br />Event Date: {{ page.event_date }}
+			{% endif %}
+			
+			{% if page.event_deadline %}
+				<br />Deadline: {{ page.event_deadline }}
+			{% endif %}
+			
+			{% if page.event_time %}
+				<br />Time: {{ page.event_time }}
+			{% endif %}
+			
+			{% if page.event_location %}
+				<br />Location: {{ page.event_location }}</p>
+			{% endif %}
+			{{ page.content }}
+			<p>Click <a href="/events/">here</a> to view more events</p>.
+		
+		{% else %}
+			{% if page.image_left %}
+				<img class="left" src="{{ page.image_left }}" width="{% if page.image_width %}{{ page.image_width }}{% else %}300px{% endif %}" height="{% if page.image_height %}{{ page.image_height }}{% else %}400px{% endif %}" />
+				<p>Click <a href="{{ page.image_left }}">here</a> for the full-size poster image.</p>
+			{% endif %}
+			{% if page.image_right %}
+				<img class="right" src="{{ page.image_right }}" width="{% if page.image_width %}{{ page.image_width }}{% else %}300px{% endif %}" height="{% if page.image_height %}{{ page.image_height }}{% else %}400px{% endif %}" />
+				<p>Click <a href="{{ page.image_right }}">here</a> for the full-size poster image.</p>
+			{% endif %}
+			
+			{% if page.author %}
+				<p>Author: {{ page.author }}</p>
+			{% endif %}
+
+	<p>Posted on: {{ page.date | date: "%B %d %Y" }}</p>
+	
+	{% if page.src_url %}
+		<p>Source: <a href="{{ page.src_url }}">{{ page.src_url }}</a></p>
+	{% endif %}
+	
+	{{ page.content }}	
+
+{% endif %}
+
+<p><a href="/news/">Back to News</a></p>

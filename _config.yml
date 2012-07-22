@@ -1,2 +1,6 @@
-server: true
-permalink: /:year/:title/
+pagination: true
+paginate: 3
+paginate_files: index.html /events/index.html /news/index.html
+#categorydir_: 
+#-events
+#-news 

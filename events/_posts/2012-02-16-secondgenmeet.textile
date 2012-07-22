@@ -1,0 +1,17 @@
+---
+layout: posts
+title: 2nd General Meeting
+post_type: event
+image_left:
+image_right:
+image_width:
+image_height:
+event_date: February 16, 2012
+event_deadline:
+event_time: 6:00pm
+event_location: MSB2133
+src_url:
+excerpt:
+---
+<p>
+If you missed our general meeting in February, there is no need to worry! You can sign up to be part of our mailing list and you will be notified of future events! Sign up here.</p>

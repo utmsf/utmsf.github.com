@@ -1,0 +1,27 @@
+---
+layout: default
+title: Executive Team
+category: exec
+---
+
+<h1>Executive Team</h1>
+
+<p>Meet the people who organize and plan all the events.</p>
+
+<ul class="entries">
+	{% for post in paginator.posts %}
+
+	<li>
+		<h1>{{ post.title }}</h1>
+		{% if post.image %}
+			<img class="right" src="{{ post.image }}" width="{% if post.image_width %}{{ post.image_width }}{% else %}300px{% endif %}" height="{% if post.image_height %}{{ post.image_height }}{% else %}400px{% endif %}" />
+			<p>Click <a href="{{ post.image }}">here</a> for the full-size poster image.</p>
+		{% endif %}
+		<p>Position: {{ post.position }}</p>
+		<p>{{ post.blurb }}</p>
+	</li>
+
+	{% endfor %}
+</ul>
+
+<text align="center">{{ paginator | pager_links }}</text>

@@ -1,0 +1,19 @@
+---
+layout: post
+title: About Doctors Without Borders/ Medecins Sans Frontieres 
+image_left:
+image_right:
+image_width:
+image_height:
+post_type: news
+event_date:
+event_deadline:
+event_time:
+event_location:
+src_url: http://www.youtube.com/watch?v=iy7sbagRV-A
+excerpt: <p><iframe width="420" height="315" src="http://www.youtube.com/embed/iy7sbagRV-A" frameborder="0" allowfullscreen></iframe></p>
+article:
+---
+
+<p><iframe width="420" height="315" src="http://www.youtube.com/embed/iy7sbagRV-A" frameborder="0" allowfullscreen></iframe>
+</p>

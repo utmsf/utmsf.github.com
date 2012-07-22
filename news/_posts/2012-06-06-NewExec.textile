@@ -1,0 +1,19 @@
+---
+layout: post
+title: Congratulations to the New Executive for 2012-2013
+image_left:
+image_right:
+image_width:
+image_height:
+post_type: news
+event_date:
+event_deadline:
+event_time:
+event_location:
+src_url:
+excerpt:
+article: yes
+---
+
+<p>
+</p>

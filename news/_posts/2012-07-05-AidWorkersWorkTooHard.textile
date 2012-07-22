@@ -1,0 +1,48 @@
+---
+layout: post
+title: Aid workers can only risk so much
+image_left:
+image_right:
+image_width:
+image_height:
+post_type: news
+event_date:
+event_deadline:
+event_time:
+event_location:
+author: Stephen Cornish
+src_url: http://www.ottawacitizen.com/opinion/workers+only+risk+much/6878921/story.html
+excerpt: Nearly half a million Somali refugees are trapped in the inhospitable archipelago of haphazard camps of the Dadaab refugee complex in eastern Kenya. Meeting the life-sustaining needs of the refugees in Dadaab is a logistical and security nightmare that traps both residents and humanitarian caregivers in a cycle of deep need and life-saving relief efforts. Water, food, medicines, all must be procured, shipped, stored and distributed day after day, year after year.
+article: true
+---
+<p>
+Nearly half a million Somali refugees are trapped in the inhospitable archipelago of haphazard camps of the Dadaab refugee complex in eastern Kenya.</p>
+
+<p>Meeting the life-sustaining needs of the refugees in Dadaab is a logistical and security nightmare that traps both residents and humanitarian caregivers in a cycle of deep need and life-saving relief efforts. Water, food, medicines, all must be procured, shipped, stored and distributed day after day, year after year.</p>
+
+
+<p>Generations are growing up in the now 20-year-old camps, which have become quasi-permanent, far from the temporary solution originally envisioned. Three quarters of the refugees are women, children and the elderly. Unable to officially work or leave the camps, less than two per cent of these Somalis have been given options of relocation or resettlement. They fled malnutrition, insecurity or conflict; in some cases all three. Dadaab’s population survives only thanks to the international aid system. They are unable to return home to warn-torn Somalia and have little hope of escaping the refugee camps.</p>
+
+
+<p>In addition to the precariousness of their living conditions, the whole enterprise also faces deterioration in security. Attacks in and around the camps and elsewhere on Kenyan soil have increased over the last year. The Kenyan government has attempted to maintain order, including by providing security escorts for aid workers, but these efforts have their limits.
+
+<p>This is the situation facing Médecins Sans Frontières/Doctors Without Borders (MSF) staff and other aid workers. We must avoid the indiscriminate attacks, improvised explosive device blasts and the like, while remaining accessible and operational enough to understand, monitor and meet the critical and evolving needs of the refugees. Unfortunately, given the increased attacks and the very real threat of further kidnappings, many aid organizations have reduced their staff numbers and activities in the camps to the barest minimum. They have increased their security precautions while limiting their project activities in order to reduce the risks faced when providing basic life-saving support.</p>
+
+
+<p>Despite a reduction in international staff in Dadaab, MSF has continued to offer medical care by relying primarily on dedicated Kenyan and Somali colleagues. We run a 300-bed hospital in Dagahaley, one of five camps that make up Dadaab, providing free health care for that camp’s more than 123,500 dwellers, as well as four health posts in the camp offering basic health care. Since January of this year, MSF staff have conducted more than 73,000 medical consultations, admitted 5,483 patients to the hospital, delivered 1,129 babies and treated 9,413 malnourished children.</p>
+
+
+<p>This work is carried out by dedicated field workers within what is known in aid jargon as “humanitarian space.” This is not a physical construct but rather a description of an evolving relationship with community members, faction leaders and armed criminals alike. By explaining our adherence to humanitarian principles of impartiality and of not taking sides in conflict zones, MSF has traditionally been able to build community acceptance of our medical humanitarian assistance. This becomes a form of protection for our patients, staff and our activities — that is, in essence, humanitarian space.</p>
+
+
+<p>This is not an infallible system for MSF or other aid organizations, as proven by the armed kidnapping in Dadaab last week of four staff with the Norwegian Refugee Council (NRC), which was thankfully resolved after three days. Sadly we cannot simply celebrate their rescue, given the death of an NRC driver. We’re also painfully focused on the fate of other aid workers in the region who remain missing — including two MSF staff kidnapped in Dadaab in October of 2011.</p>
+
+
+<p>Experienced aid workers understand the dangers we face. At the same time, humanitarian aid organizations are only willing to risk so much. Being deliberately and violently targeted is the line most of us are unwilling to cross. The consequence of this unacceptable risk is that we suspend and sometimes completely withdraw assistance. We close projects. We abandon vulnerable people who need us. It’s an impossible choice that tests our ethical resolve to be there for those whom the world has evidently abandoned.</p>
+
+
+<p>While the situation in Dadaab is seemingly intractable, possible ways forward do exist. Some say we should allow more refugees to obtain asylum in countries such as Canada; others would rather relocate these refugees to safer border camps of more manageable sizes, and invest in helping the residents become more self-reliant.</p>
+
+<p>The international community must take up its responsibilities toward Dadaab. Not doing so means indefinitely entrapping Somali refugees who are merely trying to survive.</p>
+
+<p>Stephen Cornish is executive director of Médecins Sans Frontières Canada (www.MSF.ca).</p>

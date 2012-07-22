@@ -1,18 +1,12 @@
 ---
 layout: default
-title: Home
 ---
 
-<p>Check here often for regularly updated upcoming events, news and videos! Join our <a target="_blank" href="http://www.facebook.com/groups/msf.friends.uoftoronto?ap=1">Facebook group</a> to connect with other members in the Friends of MSF chapter. Email us at <a href="mailto:msf.friends.uoftoronto@gmail.com">msf.friends.uoftoronto@gmail.com</a> if you have any questions or would like to obtain more information on our club.
-</p>
-
-<p><h1>Recent Postings</h1></p>
-
 <ul class="entries">
-	{% for post in paginator.posts limit: 5 %}
+	{% for post in paginator.posts %}
 
 	<li>
-		<h2>{{ post.title }}</h2>
+		<h1>{{ post.title }}</h1>
 		{% if post.post_type == 'event' %}
 		
 			{% if post.image_left %}
@@ -40,7 +34,6 @@ title: Home
 				<br />Location: {{ post.event_location }}</p>
 			{% endif %}
 			{{ post.content }}
-			<p>Click <a href="/events/">here</a> to view more events</p>.
 		
 		{% else %}
 			{% if post.image_left %}
@@ -63,3 +56,5 @@ title: Home
 
 	{% endfor %}
 </ul>
+
+{{ paginator | pager_links }}

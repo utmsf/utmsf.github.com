@@ -1,0 +1,40 @@
+---
+layout: default
+title: News
+category: news
+---
+
+<h1>News</h1>
+
+<p>Find news articles and interesting videos related to MSF below!</p>
+<p>If you are interested in more articles and videos, please visit the <a href="http://www.msf.ca/news-media/video/">MSF Media</a> and <a href="http://www.msf.ca/news-media/msf-in-the-news/">MSF News</a> website for more!</p>
+
+<ul class="entries">
+	{% for post in paginator.posts %}
+
+	<li>
+		<h1>{{ post.title }}</h1>
+		{% if post.image_left %}
+			<img class="left" src="{{ post.image_left }}" width="{% if post.image_width %}{{ post.image_width }}{% else %}300px{% endif %}" height="{% if post.image_height %}{{ post.image_height }}{% else %}400px{% endif %}" />
+			<p>Click <a href="{{ post.image_left }}">here</a> for the full-size poster image.</p>
+		{% endif %}
+		{% if post.image_right %}
+			<img class="right" src="{{ post.image_right }}" width="{% if post.image_width %}{{ post.image_width }}{% else %}300px{% endif %}" height="{% if post.image_height %}{{ post.image_height }}{% else %}400px{% endif %}" />
+			<p>Click <a href="{{ post.image_right }}">here</a> for the full-size poster image.</p>
+		{% endif %}
+		{% if post.author %}
+			<p>Author: {{ post.author }}</p>
+		{% endif %}
+		<p>Posted on: {{ post.date | date: "%B %d %Y" }}</p>
+		{% if post.article %}
+			{{ post.excerpt }}
+			<p>Click <a href="{{ post.url }}">here</a> to read further.</p>
+		{% else %}
+			{{ post.content }}
+		{% endif %}
+	</li>
+
+	{% endfor %}
+</ul>
+
+{{ paginator | pager_links }}

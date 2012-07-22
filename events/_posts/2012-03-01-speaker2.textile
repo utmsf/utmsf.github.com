@@ -1,0 +1,33 @@
+---
+layout: posts
+title: Speaker Event Humanitarianism Why Should I Care?
+image_left:
+image_right: /images/speaker2.jpg
+image_width: 200px
+image_height: 300px
+post_type: event
+event_date: March 1, 2012
+event_deadline:
+event_time: 6:00-8:00pm
+event_location: MSB3163
+src_url:
+excerpt:
+---
+
+<p>The Friends of MSF/Doctors Without Borders U of T Chapter would like to extend an invitation for you to join us for a speaker event entitled "Humanitarianism: Why Should I Care?" Come hear from experienced Doctors Without Borders professionals who have traveled and worked in major crisis zones around the world, helping to deliver emergency medical aid. Hear their views on what drives their conviction for helping others and where they draw hope when the limits of their idealism are reached!</p>
+<p>
+Presenters:</p>
+<p>
+Dr. James Maskalyk is an emergency physician and assistant professor at the University of Toronto. He is the author of the book "Six Months in Sudan," an account of his first mission with MSF in the small town of Abyei on the contested border between North and South Sudan. He is currently working with Ethiopian partners at Addis Ababa University to develop a program that will train the country's first emergency physicians.
+</p>
+<p>
+Avril Benoit is Director of Communications for Doctors Without Borders Canada. She joined the independent medical humanitarian organization in 2006 after more than two decades in radio, television and print journalism. For 10 of those years, she was a current affairs host and producer at CBC Radio. Over the years she has reported from Brazil, Burundi, Democratic Republic of Congo, Ha&iuml;ti, India, Kenya, Nigeria and Sudan among other places.</p>
+<p>
+The event will take place on March 1, 2012 from 6-8PM. The location of the event will be the Medical Sciences Building (1 King's College Circle, M5S 1A8). Room number is MSB3163.  
+</p>
+<p>
+We also invite you to send in questions you would like to pose to the speakers! If you have a passion for humanitarian aid and wish to voice your own concerns and beliefs to those who have dedicated their lives to this field, this is your chance! Email us your questions from now until the event on March 1, 2012!
+</p>
+<p>
+Email: <a href="msf.friends.uoftoronto@gmail.com">msf.friends.uoftoronto@gmail.com</a>
+</p>

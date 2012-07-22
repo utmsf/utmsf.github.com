@@ -1,0 +1,47 @@
+---
+layout: default
+title: Events
+category: events
+---
+
+<h1>Events</h1>
+
+<p>Find out about upcoming events as well as past events below!</p>
+
+<ul class="entries">
+	{% for post in paginator.posts %}
+
+	<li>
+		<h1>{{ post.title }}</h1>
+		{% if post.image_left %}
+			<img class="left" src="{{ post.image_left }}" width="{% if post.image_width %}{{ post.image_width }}{% else %}300px{% endif %}" height="{% if post.image_height %}{{ post.image_height }}{% else %}400px{% endif %}" />
+			<p>Click <a href="{{ post.image_left }}">here</a> for the full-size poster image.</p>
+		{% endif %}
+		{% if post.image_right %}
+			<img class="right" src="{{ post.image_right }}" width="{% if post.image_width %}{{ post.image_width }}{% else %}300px{% endif %}" height="{% if post.image_height %}{{ post.image_height }}{% else %}400px{% endif %}" />
+			<p>Click <a href="{{ post.image_right }}">here</a> for the full-size poster image.</p>
+		{% endif %}
+		<p></p>
+		{% if post.event_date %}
+			<br />Event Date: {{ post.event_date }}
+		{% endif %}
+		
+		{% if post.event_deadline %}
+			<br />Deadline: {{ post.event_deadline }}
+		{% endif %}
+		
+		{% if post.event_time %}
+			<br />Time: {{ post.event_time }}
+		{% endif %}
+		
+		{% if post.event_location %}
+			<br />Location: {{ post.event_location }}</p>
+		{% endif %} 
+		{{ post.content }}
+	</li>
+
+	{% endfor %}
+</ul>
+
+{{ paginator | pager_links }}
+
